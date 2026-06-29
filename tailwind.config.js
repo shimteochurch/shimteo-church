@@ -7,9 +7,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        serif: ['"Noto Serif KR"', 'serif'],
+        sans: ['"Noto Sans KR"', 'sans-serif'],
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        navy: '#1a2744',
+        gold: '#C9A84C',
+        warm: '#F8F6F1',
+        border: '#E8E4DC',
       },
     },
   },
